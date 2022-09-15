@@ -5,7 +5,6 @@ import copy
 
 app = Flask(__name__)
 
-
 @app.route('/', methods=['post', 'get'])
 def index():
     global form1, sorted_array_asc, random_array, time_bubble_asc

@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>be1.ru</title>
+</head>
+<body>
+<pre>
+
+
+<form action="" method="post">
+
+<span style="font-family:Times New Roman,Times,serif">Array length&nbsp;</span> &nbsp;<input name="array_lengs" size="25" type="text" />
+</pre>
+
+
+<p>Sorting&#39;s type:</p>
+
+
+<input type="radio" id="Bubble"
+     name="choice" value=Bubble>
+    <label for="Bubble">Bubble</label>
+
+    <input type="radio" id="Choice"
+     name="choice" value=Choice>
+    <label for="Choice">Choice</label>
+
+    <input type="radio" id="Insert"
+     name="choice" value=Insert>
+    <label for="Insert">Insert</label>
+
+   <input type="radio" id="Merge"
+     name="choice" value=Merge>
+    <label for="Merge">Merge</label>
+
+   <input type="radio" id="Quick"
+     name="choice" value=Quick>
+    <label for="Quick">Quick</label>
+
+
+<p><input name="btn_get_random_array" type="submit" value="Get random array and sort it" /></p>
+
+   </form>
+<pre>
+<span style="font-family:Times New Roman,Times,serif">Randomly generated array:</span></pre>
+
+<p><textarea cols="90" name="generated_array" rows="5">{{random_array}}</textarea></p>
+
+<p>&nbsp;</p>
+
+<p>Sorted array:</p>
+
+<p><textarea cols="90" rows="5">{{sorted_array_asc}}</textarea></p>
+
+<p><textarea cols="90" rows="5">{{sorted_array_desc}}</textarea></p>
+
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+	<tbody>
+		<tr>
+			<td><span style="font-family:Times New Roman,Times,serif">Sorting&#39;s type&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">Time for&nbsp;</span>descending s orting, s</td>
+			<td><span style="font-family:Times New Roman,Times,serif">Time for&nbsp; ascending sorting, s&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-family:Times New Roman,Times,serif">Bubble</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_bubble_desc}}</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_bubble_asc}}</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-family:Times New Roman,Times,serif">Insert</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_insert_desc}}</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_insert_asc}}</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-family:Times New Roman,Times,serif">Choice</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_choice_desc}}</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_choice_asc}}</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-family:Times New Roman,Times,serif">Merge</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_merge_desc}}</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{time_merge_asc}}</span></td>
+		</tr>
+		<tr>
+			<td><span style="font-family:Times New Roman,Times,serif">Quick</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{ time_quick_desc}}</span></td>
+			<td><span style="font-family:Times New Roman,Times,serif">{{ time_quick_asc}}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>
